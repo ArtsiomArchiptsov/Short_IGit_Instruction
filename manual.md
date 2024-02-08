@@ -598,15 +598,6 @@ git clone <URL-address>
 
 7. Снова воспользуемся командой **git status**, где смотрим является ли наш репозиторий активным.
 
-8. Проводим изменения в репозитории и сохраняем изменения.
- 
-9. Отправляем изменения на сервер:
- ```sh
-  git push --set-upstream origin <branch_name>
-  ```
-10. Заходим на GitHub ти жмем кнопку "Compare and pull request".
-
-  ![alt text](<ScreenShots/Pull request.png>)
 
 ### Прочие команды.
 
@@ -667,3 +658,14 @@ git pull
 ```sh 
 git checkout -b <branch_name>
 ```
+
+8. Проводим изменения в репозитории и сохраняем изменения.
+ 
+9. Отправляем изменения на сервер:
+ ```sh
+  git push --set-upstream origin <branch_name>
+  ```
+10. Заходим на GitHub ти жмем кнопку "Compare and pull request".
+
+  ![alt text](<ScreenShots/Pull request.png>)
+
